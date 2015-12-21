@@ -1,7 +1,7 @@
 {
   "name": "formatoid",
   "version": "1.0.0",
-  "description": "Tiny module for formatting date objects.",
+  "description": "Tiny and fast module for formatting date objects.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,6 @@
 # formatoid [![Support this project][donate-now]][paypal-donations]
 
-Tiny module for formatting date objects.
+Tiny and fast module for formatting date objects.
 
 ## Installation
 
