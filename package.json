@@ -1,14 +1,14 @@
 {
-  "name": "date-formatter",
+  "name": "formatoid",
   "version": "1.0.0",
-  "description": "Lazy-replace date fields in a string.",
+  "description": "Tiny module for formatting date objects.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/date-formatter.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/formatoid.git"
   },
   "keywords": [
     "format",
@@ -17,13 +17,20 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/date-formatter/issues"
+    "url": "https://github.com/IonicaBizau/formatoid/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/date-formatter#readme",
+  "homepage": "https://github.com/IonicaBizau/formatoid#readme",
   "dependencies": {
     "days": "^1.0.1",
     "fillo": "^1.0.0",
     "months": "^1.0.0",
     "parse-it": "^1.0.0"
+  },
+  "blah": {
+    "related": {
+      "ul": [
+        "[`add-subtract-date`](https://github.com/IonicaBizau/add-subtract-date)"
+      ]
+    }
   }
 }

@@ -1,33 +1,33 @@
-# date-formatter [![Support this project][donate-now]][paypal-donations]
+# formatoid [![Support this project][donate-now]][paypal-donations]
 
-Lazy-replace date fields in a string.
+Tiny module for formatting date objects.
 
 ## Installation
 
 ```sh
-$ npm i --save date-formatter
+$ npm i --save formatoid
 ```
 
 ## Example
 
 ```js
-const formatDate = require("date-formatter");
+const formatoid = require("formatoid");
 
 var d = new Date(1989, 11, 21);
 
-console.log(formatDate(d, "MM/DD/YYYY, h:mm"));
+console.log(formatoid(d, "MM/DD/YYYY, h:mm"));
 // => 12/20/1989, 12:00
 
-console.log(formatDate(d, "MMMM D, YYYY"));
+console.log(formatoid(d, "MMMM D, YYYY"));
 // => December 20, 1989
 
-console.log(formatDate(d, "dddd, MMMM, D, YYYY h:m A"));
+console.log(formatoid(d, "dddd, MMMM, D, YYYY h:m A"));
 // => Wednesday, December, 20, 1989 12:0 AM
 ```
 
 ## Documentation
 
-### `formatDate(i, f)`
+### `formatoid(i, f)`
 Formats the date into a given format.
 
 Usable format fields:
@@ -76,7 +76,9 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`youzan-api`](https://npmjs.com/package/youzan-api) by Leo
+## Related
+
+ - [`add-subtract-date`](https://github.com/IonicaBizau/add-subtract-date)
 
 ## License
 
