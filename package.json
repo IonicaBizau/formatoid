@@ -22,6 +22,8 @@
   "homepage": "https://github.com/IonicaBizau/date-formatter#readme",
   "dependencies": {
     "days": "^1.0.1",
-    "months": "^1.0.0"
+    "fillo": "^1.0.0",
+    "months": "^1.0.0",
+    "parse-it": "^1.0.0"
   }
 }
