@@ -1,0 +1,27 @@
+{
+  "name": "format-date",
+  "version": "1.0.0",
+  "description": "Lazy-replace date fields in a string.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/format-date.git"
+  },
+  "keywords": [
+    "format",
+    "date"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/format-date/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/format-date#readme",
+  "dependencies": {
+    "days": "^1.0.1",
+    "months": "^1.0.0"
+  }
+}
