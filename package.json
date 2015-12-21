@@ -1,5 +1,5 @@
 {
-  "name": "format-date",
+  "name": "date-formatter",
   "version": "1.0.0",
   "description": "Lazy-replace date fields in a string.",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/format-date.git"
+    "url": "git+ssh://git@github.com/IonicaBizau/date-formatter.git"
   },
   "keywords": [
     "format",
@@ -17,9 +17,9 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/format-date/issues"
+    "url": "https://github.com/IonicaBizau/date-formatter/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/format-date#readme",
+  "homepage": "https://github.com/IonicaBizau/date-formatter#readme",
   "dependencies": {
     "days": "^1.0.1",
     "months": "^1.0.0"

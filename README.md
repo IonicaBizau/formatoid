@@ -1,17 +1,17 @@
-# format-date [![Support this project][donate-now]][paypal-donations]
+# date-formatter [![Support this project][donate-now]][paypal-donations]
 
 Lazy-replace date fields in a string.
 
 ## Installation
 
 ```sh
-$ npm i --save format-date
+$ npm i --save date-formatter
 ```
 
 ## Example
 
 ```js
-const formatDate = require("format-date");
+const formatDate = require("date-formatter");
 
 var d = new Date(1989, 11, 20);
 
@@ -71,11 +71,7 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`available-slug`](https://github.com/azer/available-slug) by azer
-
- - [`flickr-photo-brick`](https://github.com/azer/flickr-photo-brick) by azer
-
- - [`ics-js`](https://github.com/angeloashmore/ics-js#readme) by Angelo Ashmore
+ - [`youzan-api`](https://npmjs.com/package/youzan-api) by Leo
 
 ## License
 
