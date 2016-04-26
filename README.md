@@ -1,14 +1,18 @@
+
 # formatoid [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/formatoid.svg)](https://www.npmjs.com/package/formatoid) [![Downloads](https://img.shields.io/npm/dt/formatoid.svg)](https://www.npmjs.com/package/formatoid) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Tiny and fast module for formatting date objects.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save formatoid
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const formatoid = require("formatoid");
@@ -25,7 +29,8 @@ console.log(formatoid(d, "dddd, MMMM, D, YYYY h:m A"));
 // => Wednesday, December, 20, 1989 12:0 AM
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `formatoid(i, f)`
 Formats the date into a given format.
@@ -70,19 +75,23 @@ Usable format fields:
 #### Return
 - **String** The formatted date (as string).
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`daty`](https://github.com/IonicaBizau/daty#readme)
 
-## Related
+ - [`daty`](https://github.com/IonicaBizau/daty#readme)—A tiny library to manage date objects.
+## :sparkles: Related
 
  - [`add-subtract-date`](https://github.com/IonicaBizau/add-subtract-date)
 
-## License
+
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
