@@ -1,6 +1,6 @@
 {
   "name": "formatoid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tiny and fast module for formatting date objects.",
   "main": "lib/index.js",
   "scripts": {
@@ -41,6 +41,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
