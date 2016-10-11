@@ -27,11 +27,9 @@
     "parse-it": "^1.0.0"
   },
   "blah": {
-    "related": {
-      "ul": [
-        "[`add-subtract-date`](https://github.com/IonicaBizau/add-subtract-date)"
-      ]
-    }
+    "related": [
+      "add-subtract-date"
+    ]
   },
   "files": [
     "bin/",
@@ -44,5 +42,8 @@
     "scripts/",
     "cli.js",
     "index.js"
-  ]
+  ],
+  "directories": {
+    "example": "example"
+  }
 }
