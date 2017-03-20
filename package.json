@@ -1,6 +1,6 @@
 {
   "name": "formatoid",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tiny and fast module for formatting date objects.",
   "main": "lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "format",
     "date"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/formatoid/issues"
@@ -35,12 +35,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ],
