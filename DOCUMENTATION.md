@@ -37,6 +37,13 @@ Usable format fields:
  - **Seconds**
      - `ss` (e.g. `"07"`)
      - `s` (e.g. `"7"`)
+ - **Fractional seconds**
+     - `S` (e.g. `0 1 2 3 ... 9`)
+     - `SS` (e.g. `00 01 02 ... 98 99`)
+     - `SS` (e.g. `000 001 002 ... 998 999`)
+ - **Timezones**
+     - `Z` (e.g. `-07:00 -06:00 ... +06:00 +07:00`)
+     - `ZZ` (e.g. `-0700 -0600 ... +0600 +0700`)
 
 #### Params
 - **Date** `i`: The date object.
