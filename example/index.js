@@ -13,3 +13,8 @@ console.log(formatoid(d, "dddd, MMMM, D, YYYY h:m A"));
 
 console.log(formatoid(d, "YYYYMMDDT0HHMMSSZ"));
 // => 19891221T0001200+02:00
+
+d._useUTC = true;
+console.log(formatoid(d, "dddd, MMMM, D, YYYY h:m A"));
+// => 19891221T0001200+02:00
+
