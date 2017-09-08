@@ -1,6 +1,6 @@
 {
   "name": "formatoid",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Tiny and fast module for formatting date objects.",
   "main": "lib/index.js",
   "scripts": {
@@ -41,7 +41,10 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ],
   "directories": {
     "example": "example"
