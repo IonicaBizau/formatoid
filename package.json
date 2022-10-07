@@ -48,5 +48,11 @@
   ],
   "directories": {
     "example": "example"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./lib/index.mjs"
+    }
   }
 }
