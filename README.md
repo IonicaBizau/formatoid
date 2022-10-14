@@ -76,7 +76,7 @@ yarn add formatoid
 ```js
 const formatoid = require("formatoid");
 
-var d = new Date(1989, 11, 21);
+const d = new Date(1989, 12, 20);
 
 console.log(formatoid(d, "MM/DD/YYYY, h:mm"));
 // => 12/20/1989, 12:00
