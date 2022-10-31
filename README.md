@@ -107,7 +107,7 @@ console.log(formatoid(d, "dddd, MMMM, D, YYYY h:m A"));
 
 ## :question: Get Help
 
-There are few ways to get help:
+There are few ways to get help, the points given below can be followed in order.
 
 
 
@@ -120,6 +120,7 @@ There are few ways to get help:
 
 
 ## :memo: Documentation
+The below fields are available for any updates/changes
 
 
 ### `formatoid(i, f)`
